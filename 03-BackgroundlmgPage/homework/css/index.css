@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.box{
+    background-color: lightblue;
+    padding: 80px;
+    
+}
+ 
+.text{
+    background-color: rgb(103, 174, 111);
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: none;
+}
+#home{
+    padding-left: 200px;
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+}
+#fun{
+    padding-left: 550px;
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+}
+img{
+    width: 400px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.prr{
+     padding-top: 10px;
+     padding-left: 50px;
+     font-size: 25px;
+}
+.prr2{
+    font-size: 25px;
+  padding-top: 40px;
+}
+h2{
+    font-size: 40px;
+  padding: 0px;
+  padding-bottom: 0%;
+  padding-top: 30px;
+}
+.oll{
+    padding: 20px;
+font-size: 30px;
+}
+.ull{
+    padding: 20px;
+    font-size: 30px;
+}
+.moose{
+    font-size: 50px;
+}
+h1{
+    font-size: 70px;
+    padding-bottom: 10px;
+}
