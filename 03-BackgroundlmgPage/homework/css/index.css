@@ -16,6 +16,9 @@
     font-size: 25px;
     text-decoration: none;
 }
+.text>a {
+    padding-right: 320px;
+}
 #home{
     padding-left: 200px;
     color: rgb(10, 10, 10);
