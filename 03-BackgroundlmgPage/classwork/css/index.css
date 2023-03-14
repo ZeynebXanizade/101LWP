@@ -58,7 +58,7 @@ div{
     background: rgb(222, 77, 77);
     background: linear-gradient( yellow, #e66465, #9198e5);
 }
-body{
+*{
     margin: 0px;
     padding: 0px;
 }
