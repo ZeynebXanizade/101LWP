@@ -1,0 +1,71 @@
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .birinci {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: stretch;
+
+
+        }
+
+        .birinci div {
+            width: 33.3%;
+            height: 25%;
+            text-align: center;
+            line-height: 75px;
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(237, 235, 232);
+        }
+
+
+        .div1 {
+            background-color: rgb(139, 0, 0);
+            
+        }
+
+        .div2 {
+            background-color: rgb(139, 56, 0);
+        }
+
+        .div3 {
+            background-color: rgb(100, 139, 0);
+        }
+
+        .div4 {
+            background-color: rgb(103, 2, 97);
+        }
+
+        .div5 {
+            background-color: rgb(20, 131, 14);
+        
+        }
+
+        .div6 {
+            background-color: rgb(30, 106, 123);
+        }
+
+        .div7 {
+            background-color: rgb(48, 2, 64);
+        }
+
+        .div8 {
+            background-color: rgb(5, 2, 92);
+        }
+
+        .div9 {
+            background-color: rgb(187, 5, 141);
+            
+        }
+
+        .div10 {
+            background-color: rgb(232, 253, 0);
+        }
+    
