@@ -1,142 +1,91 @@
- body {
-     width: 600px;
-     height: 300px;
-     align-items: center;
-     justify-content: center;
- }
-
- div#main {
-     position: relative;
-     height: 200px;
-     width: 200px;
-     margin: 300px;
-     align-items: center;
-border: 1px solid rgb(248, 246, 246);
-
- }
-
- #main .main1 {
-     position: absolute;
-     text-align: center;
-     width: 100px;
-     top: 35%;
-     left: 50px;
-     transform: translate(50% -50%);
-transition-delay: 1s;
-transition:2s;
-
- }
-
- #main .div1 {
-     display: inline-block;
-     position: absolute;
-     margin: auto;
-     width: 100px;
-     height: 100px;
-     background: rgb(202, 59, 59);
-     animation: keys 2s;
- }
-
- @keyframes keys {
-    
-
-     100% {
-         transform: rotate(90deg);
-         transform-origin:  top left;
-
-     }
- }
+.main {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    position: relative;
 
 
-     #main .div2 {
-         display: inline-block;
-         position: absolute;
-         left: 100px;
-         top: 0px;
-         margin: auto;
-         width: 100px;
-         height: 100px;
-         background: rgb(18, 203, 31);
+}
 
-         animation:  keyss 2s;
-    
-     }
+.main>.main1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: fit-content;
 
-     @keyframes keyss {
-        
+}
 
-         100% {
-             transform: rotate(90deg);
-             transform-origin: bottom right;
-         }
-     }
+.main>.main1>div {
+    width: 100px;
+    height: 100px;
+    transition-duration: 1s;
+}
 
-     #main .div3 {
-         display: inline-block;
-         position: absolute;
-         top: 100px;
-         left: 0px;
-         margin: auto;
-         width: 100px;
-         height: 100px;
-         background: rgb(40, 189, 189);
-         animation: keysss 2s;
-     }
+.div1 {
 
-     @keyframes keysss {
-        
-
-         100% {
-             transform: rotate(90deg);
-             transform-origin: top left;
-         }
-     }
+    background-color: rgb(202, 59, 59);
+    transform-origin: top left;
+}
 
 
-     #main .div4 {
-         display: inline-block;
-         position: absolute;
-         left: 100px;
-         top: 100px;
-         margin: auto;
-         width: 100px;
-         height: 100px;
-         background: rgb(43, 21, 212);
-         animation: keyssss 2s;
-        
-     }
 
-     @keyframes keyssss {
-    
+.div2 {
 
-         100% {
-             transform: rotate(90deg);
-             transform-origin: bottom right;
-         }
-     }
+    background: rgb(18, 203, 31);
+    transform-origin: top right;
 
-     div#main:hover .div1 {
-
-         transform: rotate(90deg);
-
-     }
-
-     div#main:hover .div2 {
-
-         transform: rotate(90deg);
+}
 
 
-     }
+.div3 {
 
-     div#main1:hover .div3 {
+    background: rgb(40, 189, 189);
+    transform-origin: bottom left;
+}
 
-         transform: rotate(90deg);
-         margin-left: 70px;
+.div4 {
+    background: rgb(43, 21, 212);
+    transform-origin: bottom right;
 
-     }
+}
 
-     div#main1:hover .div4 {
+.main:hover .div1 {
 
-         transform: rotate(90deg);
-         margin-left: 70px;
-     }
+    transform-origin: top left;
+    transform: rotate(90deg);
+
+}
+
+.main:hover .div2 {
+
+    transform-origin: top right;
+    rotate: -90deg;
+
+
+}
+
+.main:hover .div3 {
+    transition-duration: 1s;
+    transform-origin: bottom left;
+    rotate: -90deg;
+
+}
+
+.main:hover .div4 {
+    transition-duration: 1s;
+    transform-origin: bottom right;
+    rotate: 90deg;
+}
+
+h1 {
+    padding-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+}
