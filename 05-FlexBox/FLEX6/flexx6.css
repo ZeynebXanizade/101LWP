@@ -5,6 +5,7 @@
 }
 .birinci{
     width: 100%;
+   
     display: flex;
     flex-direction: row;
     justify-content:start;
@@ -14,9 +15,8 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    font-size: 100px;
     color:white;
+  
    
 }
 
@@ -25,66 +25,56 @@ div{
     display: flex;
     background-color: rgb(254, 6, 6);
     align-items: center;
-    width: 50px;
-    height: 50px;
-    margin-top: 70px;
+    margin-top: 30px;
+    width: 40px;
+    
 
 }
 .div2{
-    width: 95px;
-    height: 150px;
+    font-size:100px ;
 background-color: rgb(42, 165, 157);
 }
 .div3{
     font-size: 140px;
-    width: 100px;
-    height: 200px;
+    
     background-color: blueviolet;
 }
 
 .div4{
-    font-size: 170px;
-    width: 150px;
-    height: 400px;
+    font-size: 190px;
+   
     background-color:rgb(21, 2, 105)
 }
 
 .div5{
     font-size: 30px;
-    width: 30px;
-    height: 40px;
+   margin-top: 40px;
     background-color: rgb(207, 204, 0);
-    margin-top: 70px;
-    
+    width: 30px;
 }
 
 .div6{
-    width: 95px;
-    height: 180px;
+  font-size: 110px;
     background-color: rgb(201, 160, 182);
     
 }
 
 .div7{
-    width: 95px;
-    height: 180px;
+    font-size: 110px;
     background-color: rgb(11, 72, 86);
 }
 
 .div8{
-    width: 95px;
-    height: 180px; 
+    font-size: 110px;
     background-color: darkblue;
 }
 
 .div9{
-    width: 95px;
-    height: 180px;
+    font-size: 110px;
     background-color: rgb(26, 255, 0);
 }
 
 .div10{
-    width: 105px;
-    height: 150px;
+    font-size: 90px;
     background-color:rgb(200, 130, 16)
 }
