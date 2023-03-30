@@ -1,0 +1,25 @@
+
+.action{
+    input {
+      width: 250px;
+      height: 50px;
+      border-radius: 5px;
+      background-color: rgb(219, 212, 212);
+      
+    }
+     form i{
+        padding: 10px;
+        min-width: 50px;
+        text-align: center;
+        margin-right: 220px;
+    }
+    ::placeholder{
+        padding-left:35px ;
+    }
+form{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+ }
