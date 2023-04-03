@@ -376,12 +376,13 @@ max-width: 1128px;
     row-gap: 30px;
   }
 }
-.end{
+#end .end .social-media-icon {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  gap: 5px;
 }
-#end .container .end {
-  padding: 22px 0 25px;
+.end{
   display: flex;
   justify-content: space-between;
   align-items: center;
