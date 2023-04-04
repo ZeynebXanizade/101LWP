@@ -1,0 +1,259 @@
+body{
+  background: #F6F7F9;
+
+}
+
+
+.section1 {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  .onecard {
+    .info1{
+        padding-top: 16%;
+        padding-left: 5%;
+        display: flex;
+    flex-direction: column;
+          }
+    width: 50%;
+    display: flex;
+    gap: 10px;
+    background-image: url(/assets/img/BG.png);
+    background-repeat: repeat;
+    border-radius: 10px;
+    background-color: #54a6ff;
+    min-height: 360px;
+    color: white;
+    button {
+      background: #3563e9;
+      border-radius: 5px ;
+      text-align: center;
+      color: white;
+      width: 120px;
+      height: 44px;
+    }
+    .img2 img {
+      padding-bottom: 20px;
+      width: 400px;
+      height: 100%;
+      display: flex;
+      text-align: center;
+    }
+  }
+  .twocard {
+    .info2{
+  padding-top: 16%;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+    }
+    width: 50%;
+    min-height: 360px;
+    background-color: #3563e9;
+    background-image: url("/assets/img/gtr.svg");
+    background-repeat: repeat;
+    border-radius: 10px;
+
+    color: white;
+    button {
+      background: #54a6ff;
+      border-radius: 5px;
+      width: 120px;
+      height: 44px;
+      text-align: center;
+      color: white;
+    }
+
+  }
+}
+@media screen and (max-width: 768px) {
+    .section1 {
+        .onecard {
+          width: 100%;
+          background-position: bottom;
+     .info1{
+      
+    padding-top: 7%;
+    padding-left: 5%;
+
+     }
+        }
+        .twocard{
+            display: none;
+        }
+    }
+
+
+}
+.section2 {
+ display: flex;
+  margin-top: 40px;
+  gap: 10px;
+  align-items: center;
+  .one {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    border-radius: 10px;
+    background-color:white;
+    min-height: 150px;
+    color: black;
+    padding: 5px;
+    flex-direction: column;
+  .selects{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+   select{
+    border: #F6F7F9;
+    color: #90A3BF;
+   }
+   .custom-select p{
+    font-weight: bold;
+    font-family: "Plus Jakarta Sans", sans-serif;
+  }
+  }
+  .radio{
+    display: flex;
+   justify-content: center;
+    gap: 5px;
+    margin-right: 80%;
+    margin-top: 5%;
+  }
+  }
+button{
+height: 60px;
+width: 60px;
+border-radius: 10px;
+  background: #3563E9;
+  i{
+    color: white;
+    font-size: 20px;
+  }
+}
+.two {
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  border-radius: 10px;
+  background-color:white;
+  min-height: 150px;
+  color: black;
+  padding: 5px;
+  flex-direction: column;
+.selects{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+ select{
+  border: #F6F7F9;
+  color: #90A3BF;
+ }
+ .custom-select p{
+  font-weight: bold;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+}
+.radio{
+  display: flex;
+ justify-content: center;
+  gap: 5px;
+  margin-right: 80%;
+  margin-top: 5%;
+}
+}
+
+
+
+}
+@media screen and (max-width: 768px) {
+  .section2 {
+    display: flex;
+     margin-top: 40px;
+     gap: 10px;
+     align-items: center;
+     flex-direction: column;
+     .one {
+     .selects{
+       display: flex;
+       align-items: center;
+       flex-direction: row;
+       justify-content: center;
+       gap: 5px;
+      select{
+       border: #F6F7F9;
+       color: #90A3BF;
+      }
+      .custom-select p{
+       font-weight: bold;
+       font-family: "Plus Jakarta Sans", sans-serif;
+     }
+     }
+     .radio{
+       display: flex;
+      justify-content: center;
+       gap: 5px;
+       margin-right: 80%;
+       margin-top: 5%;
+     }
+     }
+   button{
+   height: 60px;
+   width: 60px;
+   border-radius: 10px;
+     background: #3563E9;
+     i{
+       color: white;
+       font-size: 20px;
+     }
+   }
+   .two {
+   .selects{
+     display: flex;
+     align-items: center;
+     flex-direction: row;
+     justify-content: center;
+     gap: 5px;
+    select{
+     border: #F6F7F9;
+     color: #90A3BF;
+    }
+    .custom-select p{
+     font-weight: bold;
+     font-family: "Plus Jakarta Sans", sans-serif;
+   }
+   }
+   .radio{
+     display: flex;
+    justify-content: center;
+     gap: 5px;
+     margin-right: 80%;
+     margin-top: 5%;
+   }
+   }
+   
+   
+
+}
+}
+@media screen and (max-width: 400px) {
+  .section2 {
+     .one {
+      display: flex;
+      font-size: 12px;
+     }
+   }
+   .two {
+    display: flex;
+      font-size: 12px;
+  
+   }
+   
+   
+
+}

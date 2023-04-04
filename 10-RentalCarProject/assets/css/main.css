@@ -1,0 +1,351 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1128px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: white;
+  max-width: 1440px;
+  height: 124px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .one {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+}
+nav .one h1 {
+  color: #3563e9;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+nav .input {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+nav .input .fa-magnifying-glass {
+  position: absolute;
+  left: 23px;
+  color: #afacac;
+}
+nav .input input {
+  border-radius: 1rem;
+  border: 1px solid #afacac;
+  outline: none;
+  width: 500px;
+  height: 40px;
+  padding: 0 50px;
+}
+nav .input .fa-sliders {
+  position: absolute;
+  right: 23px;
+  color: #afacac;
+}
+nav .two {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    height: 100%;
+  }
+  nav .one {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+  }
+  nav .one h1 {
+    margin-top: 20px;
+  }
+  nav .input input {
+    width: 278px;
+  }
+  nav .two {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  nav .two i {
+    display: none;
+  }
+  nav .two img {
+    margin-bottom: 65px;
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+  nav {
+    height: 100%;
+  }
+  nav .one {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+  }
+  nav .one h1 {
+    margin-top: 20px;
+  }
+  nav .input input {
+    width: 278px;
+  }
+  nav .two {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  nav .two i {
+    display: none;
+  }
+  nav .two img {
+    margin-bottom: 65px;
+    margin-right: 30px;
+  }
+}
+body {
+  background: #F6F7F9;
+}
+
+.section1 {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.section1 .onecard {
+  width: 50%;
+  display: flex;
+  gap: 10px;
+  background-image: url(/assets/img/BG.png);
+  background-repeat: repeat;
+  border-radius: 10px;
+  background-color: #54a6ff;
+  min-height: 360px;
+  color: white;
+}
+.section1 .onecard .info1 {
+  padding-top: 16%;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.section1 .onecard button {
+  background: #3563e9;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  width: 120px;
+  height: 44px;
+}
+.section1 .onecard .img2 img {
+  padding-bottom: 20px;
+  width: 400px;
+  height: 100%;
+  display: flex;
+  text-align: center;
+}
+.section1 .twocard {
+  width: 50%;
+  min-height: 360px;
+  background-color: #3563e9;
+  background-image: url("/assets/img/gtr.svg");
+  background-repeat: repeat;
+  border-radius: 10px;
+  color: white;
+}
+.section1 .twocard .info2 {
+  padding-top: 16%;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.section1 .twocard button {
+  background: #54a6ff;
+  border-radius: 5px;
+  width: 120px;
+  height: 44px;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .section1 .onecard {
+    width: 100%;
+    background-position: bottom;
+  }
+  .section1 .onecard .info1 {
+    padding-top: 7%;
+    padding-left: 5%;
+  }
+  .section1 .twocard {
+    display: none;
+  }
+}
+.section2 {
+  display: flex;
+  margin-top: 40px;
+  gap: 10px;
+  align-items: center;
+}
+.section2 .one {
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  border-radius: 10px;
+  background-color: white;
+  min-height: 150px;
+  color: black;
+  padding: 5px;
+  flex-direction: column;
+}
+.section2 .one .selects {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+}
+.section2 .one .selects select {
+  border: #F6F7F9;
+  color: #90A3BF;
+}
+.section2 .one .selects .custom-select p {
+  font-weight: bold;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.section2 .one .radio {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-right: 80%;
+  margin-top: 5%;
+}
+.section2 button {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  background: #3563E9;
+}
+.section2 button i {
+  color: white;
+  font-size: 20px;
+}
+.section2 .two {
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  border-radius: 10px;
+  background-color: white;
+  min-height: 150px;
+  color: black;
+  padding: 5px;
+  flex-direction: column;
+}
+.section2 .two .selects {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+}
+.section2 .two .selects select {
+  border: #F6F7F9;
+  color: #90A3BF;
+}
+.section2 .two .selects .custom-select p {
+  font-weight: bold;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.section2 .two .radio {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-right: 80%;
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  .section2 {
+    display: flex;
+    margin-top: 40px;
+    gap: 10px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section2 .one .selects {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+  }
+  .section2 .one .selects select {
+    border: #F6F7F9;
+    color: #90A3BF;
+  }
+  .section2 .one .selects .custom-select p {
+    font-weight: bold;
+    font-family: "Plus Jakarta Sans", sans-serif;
+  }
+  .section2 .one .radio {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-right: 80%;
+    margin-top: 5%;
+  }
+  .section2 button {
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    background: #3563E9;
+  }
+  .section2 button i {
+    color: white;
+    font-size: 20px;
+  }
+  .section2 .two .selects {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+  }
+  .section2 .two .selects select {
+    border: #F6F7F9;
+    color: #90A3BF;
+  }
+  .section2 .two .selects .custom-select p {
+    font-weight: bold;
+    font-family: "Plus Jakarta Sans", sans-serif;
+  }
+  .section2 .two .radio {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-right: 80%;
+    margin-top: 5%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .section2 .one {
+    display: flex;
+    font-size: 12px;
+  }
+  .two {
+    display: flex;
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=main.css.map */
