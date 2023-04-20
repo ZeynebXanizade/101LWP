@@ -1,0 +1,127 @@
+body {
+  background-color: rgb(38, 38, 38);
+  font-family: "Chivo Mono", monospace;
+  font-family: "Oswald", sans-serif;
+}
+
+.parentdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.parentdiv .div1 {
+  background-color: #F1AE05;
+  width: 300px;
+  height: 50%;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  gap: 5px;
+}
+.parentdiv .div1 .img1 {
+  width: 70px;
+  padding-left: 15px;
+}
+.parentdiv .div1 h1 {
+  font-size: 22px;
+  color: white;
+  padding-left: 15px;
+}
+.parentdiv .div1 p {
+  font-size: 12px;
+  padding-left: 15px;
+  color: white;
+}
+.parentdiv .div1 .img2 {
+  width: 270px;
+}
+.parentdiv .div2 {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  border-radius: 0 0 20px 20px;
+  height: 50%;
+}
+.parentdiv .div2 .new {
+  background-color: #27D18D;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 3px 7px;
+  margin-right: 15px;
+}
+.parentdiv .div2 h1 {
+  padding-left: 15px;
+  font-size: 22px;
+  color: #8A8988;
+}
+.parentdiv .div2 h4 {
+  padding-left: 15px;
+  font-size: 12px;
+  color: rgb(145, 145, 145);
+}
+.parentdiv .div2 .icon {
+  padding-left: 15px;
+}
+.parentdiv .div2 #icon {
+  color: rgb(145, 145, 145);
+}
+.parentdiv .div2 h5 {
+  padding-left: 15px;
+}
+.parentdiv .div2 .div2child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.parentdiv .div2 span {
+  margin-left: 7px;
+  color: rgb(6, 6, 6);
+  font-size: 16px;
+  border-radius: 25px;
+  padding: 3px 7px;
+  margin-right: 15px;
+}
+.parentdiv .div2 .span9 {
+  background-color: #27D18D;
+  color: white;
+}
+.parentdiv .foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.parentdiv .foot .color1 {
+  color: #BF2143;
+}
+.parentdiv .foot .color2 {
+  color: #1B4779;
+}
+
+.button {
+  background-color: #1B4779;
+  border: none;
+  color: white;
+  width: 180px;
+  height: 40px;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 100px;
+}
+.button span {
+  display: flex;
+}
+.button span h3 {
+  color: white;
+}
+.button span p {
+  color: rgb(250, 232, 232);
+  font-size: 20px;
+}/*# sourceMappingURL=main.css.map */
