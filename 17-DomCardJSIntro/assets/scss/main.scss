@@ -1,0 +1,206 @@
+body {
+    background-color: rgb(38, 38, 38);
+    font-family: 'Chivo Mono', monospace;
+    font-family: 'Oswald', sans-serif;
+}
+
+.parentdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    .div1 {
+        background-color: #F1AE05;
+        height: 330px;
+        border-radius: 20px 20px 0 0;
+        display: flex;
+        width: 300px;
+        position: relative;
+        overflow: hidden;
+
+        .div1child {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .img1 {
+            width: 70px;
+            padding-left: 15px;
+        }
+
+        h1 {
+            font-size: 22px;
+            color: white;
+            padding-left: 15px;
+            margin: 0 0 10px;
+        }
+
+        p {
+            font-size: 12px;
+            padding-left: 15px;
+            color: white;
+        }
+
+        .img2 {
+            width: 21rem;
+            position: absolute;
+            top: -1.5rem;
+            right: -6rem;
+            transition: transform 1s;
+
+        }
+
+
+        .img3 {
+            width: 25rem;
+            position: absolute;
+            top: -7rem;
+            right: -45rem;
+            transition: transform 1s;
+
+        }
+
+    }
+
+    .div2 {
+        background-color: rgb(238, 238, 238);
+        border-radius: 0 0 20px 20px;
+        height: 330px;
+        width: 300px;
+
+        .new {
+            background-color: #27D18D;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            padding: 3px 7px;
+            margin-right: 15px;
+        }
+
+        h1 {
+            padding-left: 15px;
+            font-size: 22px;
+            color: #8A8988;
+        }
+
+        h4 {
+            padding-left: 15px;
+            font-size: 12px;
+            color: rgb(145, 145, 145);
+        }
+
+        .icon {
+            padding-left: 15px;
+
+        }
+
+        #icon {
+            color: rgb(145, 145, 145);
+        }
+
+        h5 {
+            padding-left: 15px;
+
+        }
+
+        .div2child {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #sizes {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding-left: 15px;
+        }
+
+
+
+        .foot {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .color {
+                display: flex;
+                gap: 10px;
+                padding-left: 15px;
+
+                div {
+                    width: 20px;
+                    border-radius: 50%;
+
+                    &:first-child {
+                        background-color: rgb(27, 71, 121);
+
+                    }
+
+                    &:last-child {
+                        background-color: rgb(188, 35, 68);
+
+                    }
+                }
+            }
+
+            .btn {
+
+                background-color: #1B4779;
+                border: none;
+                color: white;
+                width: 200px;
+                height: 40px;
+                border-radius: 6px;
+                text-align: center;
+                text-decoration: none;
+                font-size: 16px;
+                margin: 4px -15px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin-left: 77px;
+
+                span {
+                    display: flex;
+
+                    h3 {
+                        color: white;
+                    }
+
+                    p {
+                        color: rgb(250, 232, 232);
+                        font-size: 20px;
+                    }
+                }
+            }
+
+
+        }
+
+
+
+
+
+
+    }
+
+
+
+}
+
+.parentdiv.change .img2 {
+    transform: translateX(-50rem) rotateZ(45deg);
+}
+
+.parentdiv.change .img3 {
+    transform: translateX(-40rem) rotateZ(-45deg);
+}
+
+.parentdiv.change .btn {
+    background-color: red  !important;
+}
