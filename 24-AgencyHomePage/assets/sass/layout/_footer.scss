@@ -1,0 +1,23 @@
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 40px;
+    .footcopy{
+        font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(57, 20, 0, 0.64);
+    }
+    .footright{
+        display: flex;
+        gap: 20px;
+    }
+    .terms{
+        font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: right;
+    color: #391400;
+    }
+}
